@@ -1,0 +1,461 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&family=Rubik:ital,wght@1,700&display=swap');
+
+.navbar-brand img{
+    height: 70px;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(224, 224, 224);
+    padding: 5px;
+    opacity: 0.8;
+}
+.nav-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    margin-right: 100px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #f40303;
+    color: blue;
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    height: 2px;
+    background-color: #f40303;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover .nav-link:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-item .nav-link.active {
+    color: #032445!important;
+}
+
+
+
+  .text-container-1, .text-container-2 {
+    background-color: #032445;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Added padding for better spacing */
+}
+.box-1{
+    border: 4px solid #D9713E;
+    width: 100%;
+    max-width: 1220px; /* Set a maximum width for better readability */
+    margin: 30px 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+ .box-2 {
+    border: 3px solid #D9713E;
+    width: 100%;
+    max-width: 1220px; /* Set a maximum width for better readability */
+    margin: 30px 0;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.box-2 h3 {
+    color: #D9713E;
+}
+
+ .m h1{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 100px; /* Adjusted font size for better readability on mobile */
+}
+.a h1{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 100px; /* Adjusted font size for better readability on mobile */
+}
+.e h1{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 100px; /* Adjusted font size for better readability on mobile */
+}
+.t h1{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 100px; /* Adjusted font size for better readability on mobile */
+}
+
+
+@media (max-width: 767px) {
+    /* Apply styles for screens less than 768 pixels wide (typical mobile screens) */
+     .m h1{
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+     .a h1{
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+     .e h1{
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+    .t h1{
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .box-1, .box-2 {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+.about-img img {
+    max-width: 100%;
+    height: auto;
+}
+.shop-image-last img{
+    max-width: 100%;
+    height: auto;
+}
+.contact-banner img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    height: 380px;
+}
+.faq-banner{
+    max-width: 100%;
+    height: auto;
+}
+.product-banner img{
+    max-width: 100%;
+    height: auto;
+}
+.foot{
+    max-width: 100%;
+    height: auto;
+}
+.cycle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-area{
+    background-color: #032445;
+    color: white;
+    text-align: center;
+    
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+
+    
+    
+}
+.shop-box {
+    border: 3px solid #D9713E;
+    width: 100%;
+    max-width: 1220px; /* Set a maximum width for better readability */
+    margin: 30px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    
+}
+.text-center{
+    color: #D9713E;
+}
+
+.shop-container{
+    padding-top: 50px;
+
+}
+.shop-image img{
+    height: 200px;
+    width: 360px;
+}
+.shop-image {
+    border: 1px solid lightgray;
+    margin-top: 50px;
+}
+.shop-container-last{
+    margin-top: 50px;
+    
+}
+
+.shop-image-last img {
+    border-radius: 10px;
+    border: 3px dashed lightgray;
+
+    
+    
+}
+
+
+
+.faq-banner img{
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.home,  .faq-container, .mySwiper{
+    margin-top: 91px;
+}
+.mySwiper{
+    height: 430px;
+}
+.faq-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.faq-item .question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-item .btn {
+    cursor: pointer;
+}
+
+.btn{
+    color: white;
+}
+.answer{
+    text-align: left;
+    margin-left: 30px;
+}
+.shop-area-2 {
+    background-color: #032445;
+    color: white;
+    text-align: center;
+    padding: 5%; /* Use percentages for padding */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.shop-box2 {
+    background-image: url('../images/contact/contact-banner.jpg');
+    border: 4px solid #D9713E;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 5% 10%; /* Use percentages for padding */
+    box-sizing: border-box;
+}
+
+.contact-text, .location-description {
+    padding-top: 2em; /* Use ems for padding */
+    font-weight: 400;
+    font-size: 1rem; /* Use rem units for font size */
+    line-height: 2;
+}
+
+.icons {
+    margin: 0 1em; /* Use ems for margin */
+    background-color: #D9713E;
+    padding: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 2em; /* Use ems for width and height */
+    height: 2em;
+}
+
+@media (max-width: 767px) {
+    .contact-text, .location-description {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+}
+
+.title h4{
+    background-color: #032445;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+}
+
+
+
+
+#form-main{
+    width:100%;
+     float:left;
+     padding-top:0px;
+      margin:0;
+        padding:0;
+        align-items: center;
+    }
+    #form-div {
+      max-width:400px;
+        width:100%;
+        margin:0 auto;
+        position:relative;
+      text-align: center;
+        padding:0 auto;
+    }
+    
+    .contact-form-input {
+     width: 94%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    }
+    
+    .contact-form-input:hover {
+    -webkit-transition:border-color 0.3s ease-in-out;
+        -moz-transition:border-color 0.3s ease-in-out;
+        transition:border-color 0.3s ease-in-out;
+        border:1px solid #AAA;
+    }
+    .contact-form-input:focus {
+    -webkit-transition:border-color 0.3s ease-in-out;
+        -moz-transition:border-color 0.3s ease-in-out;
+        transition:border-color 0.3s ease-in-out;
+        border:1px solid #AAA;
+      outline:0;
+        border:1px solid #999;
+    }
+    .contact-form-name{
+        font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+    }
+    
+    .contact-form-name:focus{
+     font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+    }
+    .contact-form-email{
+    font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+    }
+    .contact-form-phone{
+        font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+        }
+    .contact-form-email:focused{
+        font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+    }
+    
+    .contact-form-email-message{
+        font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+    }
+    .contact-form-button {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background: #D9713E;
+        color: #FFF;
+        margin: 0 0 10px; /* Increased margin for extra space */
+        padding: 15px; /* Increased padding for better touchability */
+        font-size: 18px; /* Slightly larger font for readability on mobile */
+        max-width: 1120px;
+    }
+    
+    @media (max-width: 767px) {
+        .contact-form-button {
+            padding: 10px; /* Adjust padding for smaller screens */
+            font-size: 16px;
+            max-width: 400px;/* Adjust font size for smaller screens */
+        }
+    }
+    
+    .contact-form-button:hover{
+     background:#D9713E;
+        -webkit-transition:background 0.3s ease-in-out;
+        -moz-transition:background 0.3s ease-in-out;
+        transition:background-color 0.3s ease-in-out;
+     
+    }
+    .contact-form-button:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+    
+    #contact textarea {
+        height:100px;
+        max-width:100%;
+      resize:vertical;
+    }
+    .location-title{
+        display: flex;
+        background-color: #032445;
+        width: 100%;
+    }
+    .head-office{
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+
+    }
+    .factory{
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+
+    }
+    .emu{
+        width: 100%;
+    }
+    .scroll-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: #D9713E;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        font-size: 24px;
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: none; /* Hide by default */
+    }
+   
+    
